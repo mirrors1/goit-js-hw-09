@@ -1,0 +1,29 @@
+.gallery {
+  width: 1128px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 0 auto;
+  padding: 24px 0;
+}
+.gallery-item {
+  flex-basis: calc((100% - 24px * 2) / 3);
+}
+.gallery-image {
+  width: 360px;
+  height: 200px;
+}
+.sl-wrapper {
+  background-color: rgba(46, 47, 66, 0.8);
+}
+
+.sl-wrapper button.sl-close,
+.sl-wrapper .sl-navigation button.sl-prev,
+.sl-wrapper .sl-navigation button.sl-next,
+div.sl-wrapper .sl-counter {
+  color: #fff;
+}
+
+div.sl-wrapper .sl-counter {
+  font-family: 'Montserrat', sans-serif;
+}
