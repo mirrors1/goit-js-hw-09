@@ -1,2 +1,1 @@
-console.log("Gallery");
-console.log("Gallery");
+console.log("I am 1-gallery.js");

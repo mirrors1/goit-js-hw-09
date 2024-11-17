@@ -1,2 +1,1 @@
-console.log("Form");
-console.log("Form");
+console.log("I am 2-form.js");
