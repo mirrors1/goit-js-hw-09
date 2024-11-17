@@ -1,1 +1,1 @@
-{"version":3,"file":"1-gallery.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"1-gallery.js","sources":["../src/js/1-gallery.js"],"sourcesContent":["console.log(\"I am 1-gallery.js\");\r\n"],"names":[],"mappings":"oCAAA,QAAQ,IAAI,mBAAmB"}
