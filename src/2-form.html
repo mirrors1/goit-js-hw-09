@@ -8,11 +8,26 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="./index.html">Go back</a></li>
-      </ul>
-    </nav>
+    <form class="feedback-form" autocomplete="off">
+      <label class="feedback-form-label">
+        Email
+        <input
+          class="feedback-form-input"
+          type="email"
+          name="email"
+          autofocus
+        />
+      </label>
+      <label class="feedback-form-label">
+        Message
+        <textarea
+          class="feedback-form-textarea"
+          name="message"
+          rows="8"
+        ></textarea>
+      </label>
+      <button type="submit">Submit</button>
+    </form>
     <script type="module" src="./js/2-form.js"></script>
   </body>
 </html>
